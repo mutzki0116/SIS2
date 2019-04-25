@@ -12,8 +12,9 @@
 <body>
 <?php 
 include_once 'connection.php';
-$object = new Dbh;
-$object->connect();
+include_once 'wizards.php';
+$object = new wizardinfo;
+$object->getAllWizards();
 
 ?>
 <nav aria-label="breadcrumb">

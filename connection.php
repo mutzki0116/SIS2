@@ -1,5 +1,5 @@
 <?php 
-class Dbh{
+class dbconn{
 private $servername;
 private $username;
 private $password;
