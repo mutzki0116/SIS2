@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,6 +10,12 @@
     <script src="main.js"></script>
 </head>
 <body>
+<?php 
+include_once 'connection.php';
+$object = new Dbh;
+$object->connect();
+
+?>
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="#">Hogwarts University of Witchcrafting and Wizardry</a></li>

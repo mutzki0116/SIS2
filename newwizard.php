@@ -1,12 +1,4 @@
-<?php 
-$firstname = $_POST['firstname1'];
-$lastname = $_POST['lastname1'];
-$middlename = $_POST['middlename1'];
-$bday = $_POST['bday1'];
-$add = $_POST['address'];
-$add2 = $_POST['address2'];
 
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -71,8 +63,8 @@ $add2 = $_POST['address2'];
     <input type="text" class="form-control" id="address2" placeholder="District, City">
   </div>
   <div class="form-group col-md-3">
-      <label for="inputState">Choose your House</label>
-      <select id="inputState" class="form-control">
+      <label for="hogwarts">Choose your House</label>
+      <select id="hogwarts" class="form-control">
         
         <option>Hupplepuff</option>
         <option>Gryffindor</option>
