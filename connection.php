@@ -6,7 +6,7 @@ private $dbname;
 private $charset;
 
 public function connect(){
-
+//hii
 $this->servername = "localhost";
 $this->username = "root";
 $this->password = "";
