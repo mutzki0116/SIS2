@@ -17,5 +17,47 @@
     <li class="breadcrumb-item"><a href="#">Expel a Wizard</a></li>
   </ol>
 </nav>
+<div class="container">
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Hupplepuff</h5>
+        <p class="card-text">Hufflepuffs value hard work, patience, loyalty, and fair play. The house has produced its share of great wizards – not least Newt Scamander, author of Fantastic Beasts and Where to Find Them.</p>
+        <a href="newwizard.php" class="btn btn-primary">Join Hupplepuf House!</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Gryffindor</h5>
+        <p class="card-text">With a lion as its crest and Professor McGonagall at its head, Gryffindor is the house which most values the virtues of courage, bravery and determination.</p>
+        <a href="newwizard.php" class="btn btn-primary">Join Gryffindor House!</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Ravenclaw</h5>
+        <p class="card-text">Ravenclaws prize wit, learning, and wisdom. It's an ethos etched into founder Rowena Ravenclaw's diadem: 'wit beyond measure is man's greatest treasure'.</p>
+        <a href="newwizard.php" class="btn btn-primary">Join Hupplepuf House!</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Slytherin</h5>
+        <p class="card-text">Slytherin produces more than its share of Dark wizards, but also turns out leaders who are proud, ambitious and cunning. Merlin is one particularly famous Slytherin.</p>
+        <a href="newwizard.php" class="btn btn-primary">Join Slytherin House!</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 </body>
 </html>
