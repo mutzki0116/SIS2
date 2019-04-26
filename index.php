@@ -12,16 +12,16 @@
 <body>
 <?php 
 include_once 'connection.php';
-include_once 'wizards.php';
-$object = new wizardinfo;
-$object->getAllWizards();
+// include_once 'wizards.php';
+
+
 
 ?>
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="#">Hogwarts University of Witchcrafting and Wizardry</a></li>
     <li class="breadcrumb-item"><a href="newwizard.php">Add New Wizard</a></li>
-    <li class="breadcrumb-item"><a href="#">View List of Wizards</a></li>
+    <li class="breadcrumb-item"><a href="wizardlist.php">View List of Wizards</a></li>
     <li class="breadcrumb-item"><a href="#">Expel a Wizard</a></li>
   </ol>
 </nav>

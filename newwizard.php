@@ -14,57 +14,57 @@
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="index.php">Hogwarts University of Witchcrafting and Wizardry</a></li>
     <li class="breadcrumb-item"><a href="newwizard.php">Add New Wizard</a></li>
-    <li class="breadcrumb-item"><a href="#">View List of Wizards</a></li>
+    <li class="breadcrumb-item"><a href="wizardlist.php">View List of Wizards</a></li>
     <li class="breadcrumb-item"><a href="#">Expel a Wizard</a></li>
   </ol>
    
 </nav>
 <div class="container">
-	<form action="#" method="$_POST">
+	<form action="createwizard.php" method="POST">
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="firstname1">Firstname</label>
-      <input type="text" class="form-control" id="firstname1" placeholder="Firstname">
+      <input type="text" class="form-control" name="firstname1" placeholder="Firstname">
     </div>
   </div>
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="lastname1">Lastname</label>
-      <input type="text" class="form-control" id="lastname1" placeholder="Lastname">
+      <input type="text" class="form-control" name="lastname1" placeholder="Lastname">
     </div>
   </div>
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="middlename1">Middlename</label>
-      <input type="text" class="form-control" id="middlename1" placeholder="Middlename">
+      <input type="text" class="form-control" name="middlename1" placeholder="Middlename">
     </div>
   </div>
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="bday1">Birthdate</label>
-      <input type="date" class="form-control" id="bday1" >
+      <input type="date" class="form-control" name="bday1" >
     </div>
   </div>
     <!-- <div class="form-group col-md-6">
       <label for="inputEmail4">Email</label>
-      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+      <input type="email" class="form-control" name="inputEmail4" placeholder="Email">
     </div> -->
     <!-- <div class="form-group col-md-6">
       <label for="inputPassword4">Password</label>
-      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+      <input type="password" class="form-control" name="inputPassword4" placeholder="Password">
     </div> -->
   
   <div class="form-group">
     <label for="address">Address</label>
-    <input type="text" class="form-control" id="address" placeholder="1234 Main St., Brgy. Tibay">
+    <input type="text" class="form-control" name="address" placeholder="1234 Main St., Brgy. Tibay">
   </div>
   <div class="form-group">
     <label for="address2">Address 2</label>
-    <input type="text" class="form-control" id="address2" placeholder="District, City">
+    <input type="text" class="form-control" name="address2" placeholder="District, City">
   </div>
   <div class="form-group col-md-3">
       <label for="hogwarts">Choose your House</label>
-      <select id="hogwarts" class="form-control">
+      <select name="hogwarts" class="form-control">
         
         <option>Hupplepuff</option>
         <option>Gryffindor</option>
@@ -83,7 +83,7 @@
       <input type="text" class="form-control" id="inputZip">
     </div> -->
     
-  <button type="submit" class="btn btn-primary" id="submitbutton">Create New Student</button>
+  <input type="submit" class="btn btn-primary" name="submitbutton" value="Create Wizard">
   </div>
   <!-- <div class="form-group">
     <div class="form-check">
