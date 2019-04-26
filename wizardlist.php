@@ -56,7 +56,7 @@ include_once 'connection.php';
               <td>
                 <div class="btn-group mt-2" role="group" aria-label="Second group">
                   <a href="updateWizard.php?wizardId=<?= $wizard->wizard_id; ?>"><button type="button" class="btn btn-success" name="edit">Edit</button></a>
-                  <a href="expelWizard.php"><button type="button" class="btn btn-danger" name="delete">Expel</button>
+                  <a href="expelWizard.php?wizardId=<?= $wizard->wizard_id; ?>"><button type="button" class="btn btn-danger" name="delete">Expel</button>
                 </div></td>
               </tr>
               <?php 
